@@ -1,0 +1,78 @@
+{
+    "language_name": "中文",
+    "language_simple": "zh-CN",
+    "window_title": "Visual Lots YT-DLP下载器",
+    "url_label": "视频URL（支持几行，自动读取剪贴板）：",
+    "path_label": "保存路径：",
+    "browse_button": "浏览",
+    "prefix_label": "文件前缀（可选）：",
+    "prefix_text": "",
+    "download_type_label": "下载类型：",
+    "file_format_label": "文件格式：",
+    "video_quality_label": "视频质量（选择或自定义）：",
+    "audio_quality_label": "音频质量（选择或自定义）：",
+    "proxy_label": "代理参数（可选，例如http://127.0.0.1:7890）：",
+    "ffmpeg_label": "FFMPEG路径（可选）：",
+    "ffmpeg_placeholder": "可选，例如。 /usr/bin/ffmpeg或ffmpeg.exe",
+    "extra_params_label": "附加的YT-DLP参数（可选，多个之间用空格隔开）：",
+    "extra_params_placeholder": "例如， --no-playlist --insert",
+    "download_button": "开始下载",
+    "stop_button": "停止下载",
+    "exit_button": "退出",
+    "log_group_title": "下载日志",
+    "error_no_url_path": "❗请提供URL和保存路径。",
+    "download_start": "🚀开始下载{count}视频...",
+    "download_stopped": "🛑下载停止",
+    "download_start_single": "[{index}]下载开始：{url}",
+    "download_progress": "⬇下载：{percent}\t速度：{speed}\t剩余时间：{eta}",
+    "download_completed": "✅下载完成：{filename}",
+    "extra_params_applied": "yt-dlp 更多参数：{params}",
+    "extra_params_error": "❌参数错误：{error}",
+    "download_error": "❌下载失败：{错误}",
+    "download_types": [
+        "视频 +音频",
+        "仅视频",
+        "仅音频",
+        "仅字幕"
+    ],
+    "video_formats": [
+        "MP4",
+        "Webm",
+        "MKV",
+        "FLV"
+    ],
+    "audio_formats": [
+        "mp3",
+        "wave",
+        "AAC",
+        "Flac",
+        "opus"
+    ],
+    "combined_formats": [
+        "MP4",
+        "MKV",
+        "Webm"
+    ],
+    "no_format": "未指定",
+    "video_qualities": [
+        "自动",
+        "8k",
+        "4K",
+        "1080p",
+        "720p",
+        "480p",
+        "360p",
+        "240p"
+    ],
+    "audio_qualities": [
+        "自动",
+        "320 kbps",
+        "256 kbps",
+        "192 kbps",
+        "128 kbps",
+        "96 kbps"
+    ],
+    "video_quality_placeholder": "自定义格式",
+    "audio_quality_placeholder": "自定义质量",
+    "language_label": "语言 ："
+}

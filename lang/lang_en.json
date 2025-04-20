@@ -1,0 +1,78 @@
+{
+    "language_name": "English",
+    "language_simple": "en",
+    "window_title": "Visual Lots YT-DLP Downloader",
+    "url_label": "Video URL (supports several lines, automatically reads the clipboard):",
+    "path_label": "Save path:",
+    "browse_button": "Browse...",
+    "prefix_label": "File prefix (optional):",
+    "prefix_text": "",
+    "download_type_label": "Download Type:",
+    "file_format_label": "File format:",
+    "video_quality_label": "Video quality (select or personalized):",
+    "audio_quality_label": "Audio quality (select or personalized):",
+    "proxy_label": "Proxy parameters (optional, for example http://127.0.0.1:7890):",
+    "ffmpeg_label": "FFMPEG path (optional):",
+    "ffmpeg_placeholder": "Optional, for example./usr/bin/ffmpeg or ffmpeg.exe",
+    "extra_params_label": "Additional YT-DLP parameters (optional, separated by spaces):",
+    "extra_params_placeholder": "For example, -no-playlist--insert",
+    "download_button": "Start Download",
+    "stop_button": "Stop Download",
+    "exit_button": "Exit",
+    "log_group_title": "Download the diary",
+    "error_no_url_path": "◝Please provide the URL and alternate path.",
+    "download_start": "🚀Start downloading {count} video...",
+    "download_stopped": "🛑Download Stop",
+    "download_start_single": "[{index}]Download start: {url}",
+    "download_progress": "⬇Download: {percent}\tSpeed: {speed}\tRemaining time: {eta}",
+    "download_completed": "✅Download completed: {filename}",
+    "extra_params_applied": "Apply other parameters: {params}",
+    "extra_params_error": "❌Analyze other parameters errors: {error}",
+    "download_error": "❌Download error: {Error}",
+    "download_types": [
+        "Video + Audio",
+        "Video only",
+        "Audio only",
+        "Subtitles only"
+    ],
+    "video_formats": [
+        "MP4",
+        "Web",
+        "mkv",
+        "flv"
+    ],
+    "audio_formats": [
+        "Ticket 3",
+        "wave",
+        "AAC",
+        "flac",
+        "opus"
+    ],
+    "combined_formats": [
+        "MP4",
+        "mkv",
+        "Web Comics"
+    ],
+    "no_format": "Nothing",
+    "video_qualities": [
+        "automatic",
+        "8K",
+        "4K",
+        "1080p",
+        "720p",
+        "480p",
+        "360p",
+        "240p"
+    ],
+    "audio_qualities": [
+        "automatic",
+        "320 kbps",
+        "256 kbps",
+        "192 kbps",
+        "128 kbps",
+        "96 kbps"
+    ],
+    "video_quality_placeholder": "Personalized format",
+    "audio_quality_placeholder": "Personalized quality",
+    "language_label": "language :"
+}

@@ -42,7 +42,7 @@ Ensure the following dependencies are installed:
 
 You can install the dependencies using the following command:
 
-```bash
+```
 pip install pyqt6 yt-dlp pyperclip
 ```
 
@@ -50,7 +50,7 @@ pip install pyqt6 yt-dlp pyperclip
 
 Run the main program file `yt_dlp_gui.py`:
 
-```bash
+```
 python yt_dlp_gui.py
 ```
 

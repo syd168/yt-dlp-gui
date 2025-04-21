@@ -41,7 +41,7 @@ YT-DLP Visual Batch Downloader 是一个基于 PyQt6 的图形化界面工具，
 可以通过以下命令安装依赖项：
 
 ```
-bash
+
 pip install pyqt6 yt-dlp pyperclip
 ```
 ### 运行程序
@@ -49,7 +49,7 @@ pip install pyqt6 yt-dlp pyperclip
 运行主程序文件 `yt_dlp_gui.py`：
 
 ```
-bash
+
 python yt_dlp_gui.py
 ```
 ### 界面操作

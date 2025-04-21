@@ -19,12 +19,13 @@ YT-DLP Visual Batch Downloader is a graphical interface tool based on PyQt6, des
   - Download only video or audio.
   - Download subtitles.
 - **Custom Formats**: Supports choosing different video and audio formats (e.g., MP4, MKV, MP3, etc.).
-- **Quality Selection**: Offers various resolution and audio quality options (e.g., 1080p, 720p, 320 kbps, etc.).
+- **Quality Selection**: Offers various resolution and audio quality options (e.g., 8K,4K,2K,1080p, 720p, 320 kbps, etc.).
 - **Advanced Settings**:
   - Supports proxy server configuration.
   - Supports FFmpeg path settings.
   - Supports input of additional yt-dlp parameters.
 - **Logging**: Displays real-time download progress and status information.
+![screebshort](images/screen-en.png)
 
 ---
 

@@ -1,13 +1,13 @@
 {
-    "path": "/home/syd168/Downloads",
+    "path": "/tmp",
     "prefix": "aa-",
-    "download_type": "仅音频",
-    "video_format": "mp3",
-    "audio_format": "自动",
-    "video_quality": "自动",
-    "audio_quality": "自动",
+    "download_type": "Video + Audio",
+    "video_format": "MP4",
+    "audio_format": "automatic",
+    "video_quality": "automatic",
+    "audio_quality": "automatic",
     "proxy": "http://127.0.0.1:7890",
     "ffmpeg_path": "",
-    "language": "zh-CN",
+    "language": "en",
     "extra_params": "--cookies-from-browser chrome"
 }

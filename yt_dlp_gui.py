@@ -332,7 +332,10 @@ class YTDLPApp(QWidget):
             # Fallback to default if download_types is not a list
             translation = self.translations['en']['download_types']
         if isinstance(translation, str):
-            return translation.format(**kwargs)
+            try:
+                return translation.format(**kwargs)
+            except KeyError:
+                return kwargs['error']
         elif isinstance(translation, list):
             return translation
         return translation

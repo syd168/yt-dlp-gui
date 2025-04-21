@@ -8,7 +8,7 @@ import os
 
 def set_proxy(proxy_str):
     if proxy_str:
-        # 设置环境变量
+        # set environment variables ,for proxy in some cases
         os.environ['HTTP_PROXY'] = 'http://127.0.0.1:7890'  # 设置 HTTP 代理
         os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:7890'  # 设置 HTTPS 代理
         os.environ['ALL_PROXY'] = 'http://127.0.0.1:7890'
@@ -117,7 +117,7 @@ async def main(target_langs_t=None, src_lang_content=None):
 
 if __name__ == "__main__":
     set_proxy("http://127.0.0.1:7890")
-    # 列出常见语言名称,英语，日语，汉语，法语，德语，俄语，葡萄牙语，西班牙语，阿拉伯语，保加利亚语，冰岛语，丹麦语，
+    # set some languages code
     target_langs = ["en", "ja", "fr", "de", "ru", "pt", "es", "ar", "bg", "is", "da", "nl", "it", "pl", "ro",]
     srclang_file = read_language_file("lang/lang_zh-CN.json")
     asyncio.run(main(target_langs, srclang_file))

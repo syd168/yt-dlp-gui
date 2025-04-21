@@ -17,9 +17,9 @@ def parse_string_to_dict(input_string):
     matches = re.findall(pattern, input_string)
     result = {}
     for match in matches:
-        if match[0]:  # 长选项
+        if match[0]:  # long option
             result[match[0]] = match[1]
-        elif match[2]:  # 短选项
+        elif match[2]:  # short option
             result[match[2]] = match[3]
     return result
 
@@ -565,7 +565,7 @@ class YTDLPApp(QWidget):
             self.worker = None
             self.download_btn.setEnabled(True)
             self.stop_btn.setEnabled(False)
-            self.log_output.append(self.get_translation('download_stopped'))
+            # self.log_output.append(self.get_translation('download_stopped'))
 
     def start_download(self):
         self.log_output.clear()

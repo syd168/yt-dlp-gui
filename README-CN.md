@@ -20,6 +20,8 @@ YT-DLP Visual Batch Downloader 是一个基于 PyQt6 的图形化界面工具，
   - 支持代理服务器配置。
   - 支持 FFmpeg 路径设置。
   - 支持 yt-dlp 的额外参数输入。
+  - 支持自定义 yt-dlp 参数。
+  - 支持windows，macOS，Linux等系统。
 - **日志记录**：实时显示下载进度和状态信息。
 - 
 ![屏幕截图](images/screen-cn.png)
@@ -134,6 +136,8 @@ json
 ## 注意事项
 
 - 确保系统已正确安装 yt-dlp 和 FFmpeg（如果需要）。
+- 安装yt-dlp 请参考官方文档。https://github.com/yt-dlp/yt-dlp
+- 安装FFmpeg 请参考官方文档。https://ffmpeg.org/download.html
 - 如果使用代理，请确保代理服务器地址正确无误。
 - 下载过程中不要关闭程序，否则可能导致下载中断。
 
@@ -143,7 +147,7 @@ json
 
 如果有任何问题或建议，请联系开发者或提交 Issue。
  
-**GitHub 仓库**：https://github.com/yourusername/yt-dlp-gui
+**GitHub 仓库**：https://github.com/syd168/yt-dlp-gui
 
 ---
 
